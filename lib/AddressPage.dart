@@ -21,51 +21,8 @@ class AddressPageState extends State<StatefulWidget> {
       appBar: AppBar(
         title: Text("살고계신 주소를 입력해주세요")
       ),
-      body: Column(
-        children: <Widget>[
-          Padding(
-            padding: EdgeInsets.all(10),
-            child: TextFormField(
-              decoration: InputDecoration(labelText: "주소를 입력해주세요"),
-              onChanged: (text) {
-                this.primaryAddress = text;
-              },
-            ),
-          ),
-          Padding(
-            padding: EdgeInsets.all(10),
-            child: TextField(
-              decoration: InputDecoration(labelText: "동을 입력해주세요 (동이 없다면 0을 입력)"),
-              keyboardType: TextInputType.number,
-              onChanged: (text) {
-                this.dong = int.parse(text);
-              },
-            ),
-          ),
-          Padding(
-            padding: EdgeInsets.all(10),
-            child: TextField(
-              decoration: InputDecoration(labelText: "호수를 입력해주세요"),
-              keyboardType: TextInputType.number,
-              onChanged: (text) {
-                this.ho = int.parse(text);
-              },
-            ),
-          ),
-        ],
-      ),
-      floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.navigate_next),
-        onPressed: () {
-          if(primaryAddress != null && dong != null && ho != null) {
-            var address = Address(primaryAddress: primaryAddress, dong: dong, ho: ho);
-            storeAddress(address);
-            Navigator.of(context).push(
-                MaterialPageRoute(builder: (_) => HistoryPage())
-            );
-          }
-        },
-      )
+      body: throw UnimplementedError(),
+      floatingActionButton: throw UnimplementedError()
     );
   }
 }
