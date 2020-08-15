@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "804825275308",
+    "firebase_url": "https://flutter-knock.firebaseio.com",
+    "project_id": "flutter-knock",
+    "storage_bucket": "flutter-knock.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804825275308:android:6f0ce6197a8bb82f447809",
+        "android_client_info": {
+          "package_name": "com.woollim.flutter_knock_knock_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804825275308-se61vgi7qs9hcsisv7e931r5mt3u6n19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALwEt1bCfI-qSFnZaJcuz_h60atqLk37s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804825275308-se61vgi7qs9hcsisv7e931r5mt3u6n19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
